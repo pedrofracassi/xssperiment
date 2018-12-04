@@ -1,0 +1,33 @@
+{
+  "name": "xssperiment",
+  "version": "1.0.0",
+  "description": "Simple express server that servers a github gist",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon --exec node -r dotenv/config index.js",
+    "test": "standard",
+    "fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrofracassi/xssperiment.git"
+  },
+  "author": "Pedro Fracassi <pedroluizfracassi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pedrofracassi/xssperiment/issues"
+  },
+  "homepage": "https://github.com/pedrofracassi/xssperiment#readme",
+  "devDependencies": {
+    "dotenv": "^6.1.0",
+    "nodemon": "^1.18.7",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mime-types": "^2.1.21",
+    "request": "^2.88.0",
+    "snekfetch": "^4.0.4"
+  }
+}
