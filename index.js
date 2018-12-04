@@ -1,5 +1,3 @@
-require('dotenv').config()
-
 const snekfetch = require('snekfetch')
 const express = require('express')
 const mime = require('mime-types')
